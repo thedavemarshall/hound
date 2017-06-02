@@ -78,6 +78,11 @@
   }
 }
 
+.home-languages-list-item-logo-svg {
+  @include size(6.25rem);
+  margin-bottom: $small-spacing;
+}
+
 .home-languages-list-item-heading {
   font-size: $font-size-small;
   font-weight: $font-weight-bold;
