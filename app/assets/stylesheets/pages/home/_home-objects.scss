@@ -20,7 +20,6 @@
 
 .home-heading--large {
   font-size: 1.8em;
-  font-weight: $font-weight-light;
   letter-spacing: $letter-spacing-base;
   margin-bottom: $xsmall-spacing;
 
@@ -35,7 +34,7 @@
 
 .home-heading--small {
   font-size: $font-size-medium;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-semibold;
   letter-spacing: $letter-spacing-base;
   margin-bottom: $xsmall-spacing;
 }
