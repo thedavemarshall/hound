@@ -61,7 +61,6 @@ $dropdown-arrow: $white image-url("select-arrow.svg") no-repeat;
 .organization-header-title {
   @include ellipsis;
   font-weight: $font-weight-semibold;
-  letter-spacing: 0;
   line-height: 1.4;
   margin-bottom: 0;
 }
