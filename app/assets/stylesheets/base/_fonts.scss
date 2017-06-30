@@ -1,0 +1,29 @@
+@include font-face("Tofino", "Tofino-Light") {
+  font-style: normal;
+  font-weight: $font-weight-light;
+}
+
+@include font-face("Tofino", "Tofino-Light-Italic") {
+  font-style: italic;
+  font-weight: $font-weight-light;
+}
+
+@include font-face("Tofino", "Tofino-Regular") {
+  font-style: normal;
+  font-weight: $font-weight-regular;
+}
+
+@include font-face("Tofino", "Tofino-Regular-Italic") {
+  font-style: italic;
+  font-weight: $font-weight-regular;
+}
+
+@include font-face("Tofino", "Tofino-Medium") {
+  font-style: normal;
+  font-weight: $font-weight-medium;
+}
+
+@include font-face("Tofino", "Tofino-Medium-Italic") {
+  font-style: italic;
+  font-weight: $font-weight-medium;
+}

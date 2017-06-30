@@ -1,9 +1,9 @@
-$font-family-default: "Tofino Personal", $font-stack-system;
+$font-family-default: "Tofino", $font-stack-system;
 $font-family-heading: $font-family-default;
 $font-family-code: $font-stack-monaco;
 
 $font-weight-light: 300;
-$font-weight-normal: 400;
+$font-weight-regular: 400;
 $font-weight-medium: 500;
 
 $font-size-small: 0.875em;
@@ -67,3 +67,9 @@ $focus-outline-offset: 2px;
 $base-transition-timing: 0.2s;
 $base-easing: cubic-bezier(0.39, 0.575, 0.565, 1);
 $base-transition: all $base-transition-timing $base-easing;
+
+// Bourbon library settings
+$bourbon: (
+  "global-font-file-formats": "woff",
+  "rails-asset-pipeline": true,
+);
