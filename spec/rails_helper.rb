@@ -10,6 +10,9 @@ RSpec.configure do |config|
 
   config.before do
     DatabaseCleaner.clean
+  end
+
+  config.before :each, type: :request do
     stub_request(:any, /api.github.com/).to_rack(FakeGithub)
   end
 
