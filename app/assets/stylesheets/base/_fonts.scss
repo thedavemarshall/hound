@@ -2,20 +2,20 @@ $_font-host-url: "http://font.thoughtbot.com/hound/";
 
 @include font-face(
   "Tofino",
-  "#{$_font-host-url}Tofino-Light",
+  "#{$_font-host-url}Tofino-Book",
   $asset-pipeline: false
 ) {
   font-style: normal;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-book;
 }
 
 @include font-face(
   "Tofino",
-  "#{$_font-host-url}Tofino-LightItalic",
+  "#{$_font-host-url}Tofino-BookItalic",
   $asset-pipeline: false
 ) {
   font-style: italic;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-book;
 }
 
 @include font-face(
