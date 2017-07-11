@@ -10,6 +10,6 @@ class JobFailure < OpenStruct
   end
 
   def self.remove(indexes)
-    indexes.reverse.each { |index| Resque::Failure.remove(index) }
+    indexes.reverse.each { |i| Resque::Failure.remove(i.to_i) }
   end
 end

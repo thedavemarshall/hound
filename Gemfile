@@ -45,6 +45,12 @@ group :staging, :production do
   gem "sentry-raven", ">= 0.12.2"
 end
 
+group :development do
+  gem "capistrano", "~> 3.8.2"
+  gem "capistrano-rails", "~> 1.3.0"
+  gem "capistrano-ext", "~> 1.2.1"
+end
+
 group :development, :test do
   gem "bundler-audit", require: false
   gem "byebug"
@@ -59,6 +65,7 @@ group :test do
   gem "database_cleaner"
   gem "factory_girl_rails"
   gem "launchy"
-  gem "shoulda-matchers"
+  gem "shoulda-matchers", "< 3.0.0"
   gem "webmock"
+  gem "fakeredis", "~> 0.6.0"
 end
